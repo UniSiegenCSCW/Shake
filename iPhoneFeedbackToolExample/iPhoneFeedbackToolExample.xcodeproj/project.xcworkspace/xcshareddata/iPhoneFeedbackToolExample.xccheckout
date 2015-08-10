@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25F73AAB-E064-4763-ACA3-AC86FDDFA59B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iPhoneFeedbackToolExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>84BD90B0875996879B2B879A599355F00CF4412E</key>
+		<string>github.com:UniSiegenCSCW/iPhoneFeedbackTool.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iPhoneFeedbackToolExample/iPhoneFeedbackToolExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>84BD90B0875996879B2B879A599355F00CF4412E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:UniSiegenCSCW/iPhoneFeedbackTool.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>84BD90B0875996879B2B879A599355F00CF4412E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84BD90B0875996879B2B879A599355F00CF4412E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iPhoneFeedbackTool</string>
+		</dict>
+	</array>
+</dict>
+</plist>

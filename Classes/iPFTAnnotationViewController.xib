@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="iPFTAnnotationViewController">
+            <connections>
+                <outlet property="buttonDelete" destination="D8d-GL-MTl" id="LVe-tT-LVc"/>
+                <outlet property="buttonDone" destination="Epk-LE-Slf" id="IHt-1p-u62"/>
+                <outlet property="labelAnnotationTitle" destination="RZ0-W9-RPq" id="uIf-bp-6az"/>
+                <outlet property="labelDetailsPlaceholder" destination="kF1-lN-CoO" id="rw2-Ok-Y5q"/>
+                <outlet property="textDetails" destination="Eqv-c7-g3z" id="3XH-aN-PHo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewDetails" destination="Mdd-5z-Ykk" id="DKA-el-TMU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="410"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" id="Mdd-5z-Ykk">
+                    <rect key="frame" x="10" y="10" width="260.00002372895256" height="170"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" id="Eap-gl-XE1">
+                            <rect key="frame" x="0.0" y="0.0" width="260.00002372895256" height="170"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XOu-rd-4sX">
+                                <rect key="frame" x="0.0" y="0.0" width="260.00002372895256" height="170"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" id="AUW-aB-VXG">
+                                        <rect key="frame" x="0.0" y="0.0" width="260.00002372895256" height="170"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UeJ-gW-ooP">
+                                            <rect key="frame" x="0.0" y="0.0" width="260.00002372895256" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RZ0-W9-RPq">
+                                                    <rect key="frame" x="10" y="3" width="240.00002277979394" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <vibrancyEffect>
+                                            <blurEffect style="dark"/>
+                                        </vibrancyEffect>
+                                    </visualEffectView>
+                                </subviews>
+                            </view>
+                            <blurEffect style="dark"/>
+                        </visualEffectView>
+                        <view contentMode="scaleToFill" id="OBh-9V-qcy">
+                            <rect key="frame" x="0.0" y="0.0" width="260" height="170"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view alpha="0.30000001192092896" contentMode="scaleToFill" id="ieh-Ed-6UU">
+                                    <rect key="frame" x="8" y="25" width="244" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="Eqv-c7-g3z">
+                                    <rect key="frame" x="8" y="25" width="244" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="64C-vD-f37"/>
+                                    </connections>
+                                </textView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kF1-lN-CoO">
+                                    <rect key="frame" x="13" y="31" width="230" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="D8d-GL-MTl">
+                                    <rect key="frame" x="10" y="130" width="110" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <state key="normal" title="Button">
+                                        <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonDeletePressed:" destination="-1" eventType="touchUpInside" id="QnB-ya-ysd"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Epk-LE-Slf">
+                                    <rect key="frame" x="140" y="130" width="110" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <state key="normal" title="Button">
+                                        <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonDonePressed:" destination="-1" eventType="touchUpInside" id="MWt-zr-Rhk"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="6"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="259" y="363"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

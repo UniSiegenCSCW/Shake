@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831937FD1B19D7C200EA3D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 831937FC1B19D7C200EA3D96 /* main.m */; };
+		831938001B19D7C200EA3D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 831937FF1B19D7C200EA3D96 /* AppDelegate.m */; };
+		831938031B19D7C200EA3D96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831938021B19D7C200EA3D96 /* ViewController.m */; };
+		831938061B19D7C200EA3D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831938041B19D7C200EA3D96 /* Main.storyboard */; };
+		831938081B19D7C300EA3D96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831938071B19D7C300EA3D96 /* Images.xcassets */; };
+		8319380B1B19D7C300EA3D96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831938091B19D7C300EA3D96 /* LaunchScreen.xib */; };
+		832D39C81B1CA622000A098D /* iPFTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D39B71B1CA622000A098D /* iPFTBaseViewController.m */; };
+		832D39C91B1CA622000A098D /* iPFTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D39B91B1CA622000A098D /* iPFTInfoViewController.m */; };
+		832D39CA1B1CA622000A098D /* iPFTInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832D39BA1B1CA622000A098D /* iPFTInfoViewController.xib */; };
+		832D39CB1B1CA622000A098D /* iPFTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D39BC1B1CA622000A098D /* iPFTMainViewController.m */; };
+		832D39CC1B1CA622000A098D /* iPFTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832D39BD1B1CA622000A098D /* iPFTMainViewController.xib */; };
+		832D39CE1B1CA622000A098D /* iPFTModuleNativeMail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 832D39C01B1CA622000A098D /* iPFTModuleNativeMail.plist */; };
+		832D39CF1B1CA622000A098D /* iPhoneFeedbackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D39C21B1CA622000A098D /* iPhoneFeedbackTool.m */; };
+		832D39D01B1CA622000A098D /* UIViewController+iPFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D39C41B1CA622000A098D /* UIViewController+iPFT.m */; };
+		832D39E11B1CA69C000A098D /* iPFT_Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39D81B1CA69C000A098D /* iPFT_Contact.png */; };
+		832D39E21B1CA69C000A098D /* iPFT_Contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39D91B1CA69C000A098D /* iPFT_Contact@2x.png */; };
+		832D39E31B1CA69C000A098D /* iPFT_StartFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DA1B1CA69C000A098D /* iPFT_StartFeedback.png */; };
+		832D39E41B1CA69C000A098D /* iPFT_StartFeedback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DB1B1CA69C000A098D /* iPFT_StartFeedback@2x.png */; };
+		832D39E51B1CA69C000A098D /* iPFT_Shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DC1B1CA69C000A098D /* iPFT_Shake.png */; };
+		832D39E61B1CA69C000A098D /* iPFT_Shake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DD1B1CA69C000A098D /* iPFT_Shake@2x.png */; };
+		832D39E71B1CA69C000A098D /* iPFT_WhiteBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DE1B1CA69C000A098D /* iPFT_WhiteBG.png */; };
+		832D39EF1B1CB310000A098D /* iPhoneFeedbackTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 832D39EE1B1CB310000A098D /* iPhoneFeedbackTool.bundle */; };
+		832D3A0C1B21E774000A098D /* iPFTOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D3A0A1B21E774000A098D /* iPFTOptionsViewController.m */; };
+		832D3A0D1B21E774000A098D /* iPFTOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832D3A0B1B21E774000A098D /* iPFTOptionsViewController.xib */; };
+		832D3A111B21E8E6000A098D /* iPFTSubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D3A0F1B21E8E6000A098D /* iPFTSubmitViewController.m */; };
+		832D3A121B21E8E6000A098D /* iPFTSubmitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832D3A101B21E8E6000A098D /* iPFTSubmitViewController.xib */; };
+		832D3A161B21EC02000A098D /* iPFTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D3A141B21EC02000A098D /* iPFTMessageViewController.m */; };
+		832D3A171B21EC02000A098D /* iPFTMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832D3A151B21EC02000A098D /* iPFTMessageViewController.xib */; };
+		83357EBF1B571E8F00A49472 /* iPFTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83357EBE1B571E8F00A49472 /* iPFTNavigationController.m */; };
+		834F436E1B526BEC00F7C0F0 /* iPFTAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 834F436D1B526BEC00F7C0F0 /* iPFTAnnotationView.m */; };
+		835972C61B47E69500C44A0A /* iPFTAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835972C41B47E69500C44A0A /* iPFTAnnotationViewController.m */; };
+		835972C71B47E69500C44A0A /* iPFTAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835972C51B47E69500C44A0A /* iPFTAnnotationViewController.xib */; };
+		83695E9E1B551BF900423DA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83695EA01B551BF900423DA9 /* Localizable.strings */; };
+		836F74411B5844CF00AD611D /* iPFTPaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F743F1B5844CF00AD611D /* iPFTPaintViewController.m */; };
+		836F74421B5844CF00AD611D /* iPFTPaintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836F74401B5844CF00AD611D /* iPFTPaintViewController.xib */; };
+		8375BA4A1B5BBC080024D276 /* iPFTPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8375BA491B5BBC080024D276 /* iPFTPersistence.m */; };
+		837EC94D1B245D4F00024B1D /* iPFTOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837EC94C1B245D4F00024B1D /* iPFTOptionView.m */; };
+		837EC9501B247E8700024B1D /* iPFT_Option.png in Resources */ = {isa = PBXBuildFile; fileRef = 837EC94E1B247E8700024B1D /* iPFT_Option.png */; };
+		837EC9511B247E8700024B1D /* iPFT_Option@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837EC94F1B247E8700024B1D /* iPFT_Option@2x.png */; };
+		83A6098F1B59415D004AF14D /* iPFT_Brush10.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A609891B59415D004AF14D /* iPFT_Brush10.png */; };
+		83A609901B59415D004AF14D /* iPFT_Brush10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098A1B59415D004AF14D /* iPFT_Brush10@2x.png */; };
+		83A609911B59415D004AF14D /* iPFT_Brush15.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098B1B59415D004AF14D /* iPFT_Brush15.png */; };
+		83A609921B59415D004AF14D /* iPFT_Brush15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098C1B59415D004AF14D /* iPFT_Brush15@2x.png */; };
+		83A609931B59415D004AF14D /* iPFT_Brush20.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098D1B59415D004AF14D /* iPFT_Brush20.png */; };
+		83A609941B59415D004AF14D /* iPFT_Brush20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098E1B59415D004AF14D /* iPFT_Brush20@2x.png */; };
+		83A609971B594165004AF14D /* iPFT_Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A609951B594165004AF14D /* iPFT_Eraser.png */; };
+		83A609981B594165004AF14D /* iPFT_Eraser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A609961B594165004AF14D /* iPFT_Eraser@2x.png */; };
+		83BB52F51B284A7A0023D67D /* iPFTSubmitData.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB52F41B284A7A0023D67D /* iPFTSubmitData.m */; };
+		83BB52F91B28D0D60023D67D /* iPFTHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB52F71B28D0D60023D67D /* iPFTHelpViewController.m */; };
+		83BB52FA1B28D0D60023D67D /* iPFTHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83BB52F81B28D0D60023D67D /* iPFTHelpViewController.xib */; };
+		83D8842D1B63963E00D611BB /* iPFT_Annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D8842B1B63963E00D611BB /* iPFT_Annotation.png */; };
+		83D8842E1B63963E00D611BB /* iPFT_Annotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D8842C1B63963E00D611BB /* iPFT_Annotation@2x.png */; };
+		83D884311B63964E00D611BB /* iPFT_TouchEvent.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D8842F1B63964E00D611BB /* iPFT_TouchEvent.png */; };
+		83D884321B63964E00D611BB /* iPFT_TouchEvent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D884301B63964E00D611BB /* iPFT_TouchEvent@2x.png */; };
+		83D884361B63DD4B00D611BB /* iPFTModuleRedmineTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D884351B63DD4B00D611BB /* iPFTModuleRedmineTicket.m */; };
+		83D884381B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D884371B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist */; };
+		83EE95891B2D8009000CB5C2 /* iPFTLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EE95871B2D8009000CB5C2 /* iPFTLogViewController.m */; };
+		83EE958A1B2D8009000CB5C2 /* iPFTLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EE95881B2D8009000CB5C2 /* iPFTLogViewController.xib */; };
+		83EE95991B2DDEE3000CB5C2 /* iPFT_Failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958B1B2DDEE3000CB5C2 /* iPFT_Failed.png */; };
+		83EE959A1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958C1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png */; };
+		83EE959B1B2DDEE3000CB5C2 /* iPFT_Success.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958D1B2DDEE3000CB5C2 /* iPFT_Success.png */; };
+		83EE959C1B2DDEE3000CB5C2 /* iPFT_Success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958E1B2DDEE3000CB5C2 /* iPFT_Success@2x.png */; };
+		83EE959D1B2DDEE3000CB5C2 /* iPFT_Sending.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958F1B2DDEE3000CB5C2 /* iPFT_Sending.png */; };
+		83EE95A61B2DDEE3000CB5C2 /* iPFT_Sending@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE95981B2DDEE3000CB5C2 /* iPFT_Sending@2x.png */; };
+		83F1C2D41B5C3F5E006B38BB /* iPFTModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F1C2D31B5C3F5E006B38BB /* iPFTModule.m */; };
+		83F1C2D71B5C3F7F006B38BB /* iPFTModuleNativeMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F1C2D61B5C3F7F006B38BB /* iPFTModuleNativeMail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831937F71B19D7C200EA3D96 /* iPhoneFeedbackToolExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneFeedbackToolExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831937FB1B19D7C200EA3D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831937FC1B19D7C200EA3D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		831937FE1B19D7C200EA3D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		831937FF1B19D7C200EA3D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		831938011B19D7C200EA3D96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		831938021B19D7C200EA3D96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		831938051B19D7C200EA3D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831938071B19D7C300EA3D96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8319380A1B19D7C300EA3D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		831938151B19D7C300EA3D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831938161B19D7C300EA3D96 /* iPhoneFeedbackToolExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneFeedbackToolExampleTests.m; sourceTree = "<group>"; };
+		832D39B61B1CA622000A098D /* iPFTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTBaseViewController.h; path = ../../Classes/iPFTBaseViewController.h; sourceTree = "<group>"; };
+		832D39B71B1CA622000A098D /* iPFTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTBaseViewController.m; path = ../../Classes/iPFTBaseViewController.m; sourceTree = "<group>"; };
+		832D39B81B1CA622000A098D /* iPFTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTInfoViewController.h; path = ../../Classes/iPFTInfoViewController.h; sourceTree = "<group>"; };
+		832D39B91B1CA622000A098D /* iPFTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTInfoViewController.m; path = ../../Classes/iPFTInfoViewController.m; sourceTree = "<group>"; };
+		832D39BA1B1CA622000A098D /* iPFTInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTInfoViewController.xib; path = ../../Classes/iPFTInfoViewController.xib; sourceTree = "<group>"; };
+		832D39BB1B1CA622000A098D /* iPFTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTMainViewController.h; path = ../../Classes/iPFTMainViewController.h; sourceTree = "<group>"; };
+		832D39BC1B1CA622000A098D /* iPFTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTMainViewController.m; path = ../../Classes/iPFTMainViewController.m; sourceTree = "<group>"; };
+		832D39BD1B1CA622000A098D /* iPFTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTMainViewController.xib; path = ../../Classes/iPFTMainViewController.xib; sourceTree = "<group>"; };
+		832D39C01B1CA622000A098D /* iPFTModuleNativeMail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iPFTModuleNativeMail.plist; path = ../../Classes/iPFTModuleNativeMail.plist; sourceTree = "<group>"; };
+		832D39C11B1CA622000A098D /* iPhoneFeedbackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneFeedbackTool.h; path = ../../Classes/iPhoneFeedbackTool.h; sourceTree = "<group>"; };
+		832D39C21B1CA622000A098D /* iPhoneFeedbackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneFeedbackTool.m; path = ../../Classes/iPhoneFeedbackTool.m; sourceTree = "<group>"; };
+		832D39C31B1CA622000A098D /* UIViewController+iPFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+iPFT.h"; path = "../../Classes/UIViewController+iPFT.h"; sourceTree = "<group>"; };
+		832D39C41B1CA622000A098D /* UIViewController+iPFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+iPFT.m"; path = "../../Classes/UIViewController+iPFT.m"; sourceTree = "<group>"; };
+		832D39D81B1CA69C000A098D /* iPFT_Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Contact.png; sourceTree = "<group>"; };
+		832D39D91B1CA69C000A098D /* iPFT_Contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Contact@2x.png"; sourceTree = "<group>"; };
+		832D39DA1B1CA69C000A098D /* iPFT_StartFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_StartFeedback.png; sourceTree = "<group>"; };
+		832D39DB1B1CA69C000A098D /* iPFT_StartFeedback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_StartFeedback@2x.png"; sourceTree = "<group>"; };
+		832D39DC1B1CA69C000A098D /* iPFT_Shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Shake.png; sourceTree = "<group>"; };
+		832D39DD1B1CA69C000A098D /* iPFT_Shake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Shake@2x.png"; sourceTree = "<group>"; };
+		832D39DE1B1CA69C000A098D /* iPFT_WhiteBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_WhiteBG.png; sourceTree = "<group>"; };
+		832D39EE1B1CB310000A098D /* iPhoneFeedbackTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iPhoneFeedbackTool.bundle; path = ../../Classes/iPhoneFeedbackTool.bundle; sourceTree = "<group>"; };
+		832D3A071B21B2C6000A098D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		832D3A091B21E774000A098D /* iPFTOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTOptionsViewController.h; path = ../../Classes/iPFTOptionsViewController.h; sourceTree = "<group>"; };
+		832D3A0A1B21E774000A098D /* iPFTOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTOptionsViewController.m; path = ../../Classes/iPFTOptionsViewController.m; sourceTree = "<group>"; };
+		832D3A0B1B21E774000A098D /* iPFTOptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTOptionsViewController.xib; path = ../../Classes/iPFTOptionsViewController.xib; sourceTree = "<group>"; };
+		832D3A0E1B21E8E6000A098D /* iPFTSubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTSubmitViewController.h; path = ../../Classes/iPFTSubmitViewController.h; sourceTree = "<group>"; };
+		832D3A0F1B21E8E6000A098D /* iPFTSubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTSubmitViewController.m; path = ../../Classes/iPFTSubmitViewController.m; sourceTree = "<group>"; };
+		832D3A101B21E8E6000A098D /* iPFTSubmitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTSubmitViewController.xib; path = ../../Classes/iPFTSubmitViewController.xib; sourceTree = "<group>"; };
+		832D3A131B21EC02000A098D /* iPFTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTMessageViewController.h; path = ../../Classes/iPFTMessageViewController.h; sourceTree = "<group>"; };
+		832D3A141B21EC02000A098D /* iPFTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTMessageViewController.m; path = ../../Classes/iPFTMessageViewController.m; sourceTree = "<group>"; };
+		832D3A151B21EC02000A098D /* iPFTMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTMessageViewController.xib; path = ../../Classes/iPFTMessageViewController.xib; sourceTree = "<group>"; };
+		83357EBD1B571E8F00A49472 /* iPFTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTNavigationController.h; path = ../../Classes/iPFTNavigationController.h; sourceTree = "<group>"; };
+		83357EBE1B571E8F00A49472 /* iPFTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTNavigationController.m; path = ../../Classes/iPFTNavigationController.m; sourceTree = "<group>"; };
+		834F436C1B526BEC00F7C0F0 /* iPFTAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTAnnotationView.h; path = ../../Classes/iPFTAnnotationView.h; sourceTree = "<group>"; };
+		834F436D1B526BEC00F7C0F0 /* iPFTAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTAnnotationView.m; path = ../../Classes/iPFTAnnotationView.m; sourceTree = "<group>"; };
+		835972C31B47E69500C44A0A /* iPFTAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTAnnotationViewController.h; path = ../../Classes/iPFTAnnotationViewController.h; sourceTree = "<group>"; };
+		835972C41B47E69500C44A0A /* iPFTAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTAnnotationViewController.m; path = ../../Classes/iPFTAnnotationViewController.m; sourceTree = "<group>"; };
+		835972C51B47E69500C44A0A /* iPFTAnnotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTAnnotationViewController.xib; path = ../../Classes/iPFTAnnotationViewController.xib; sourceTree = "<group>"; };
+		83695E9F1B551BF900423DA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83695EA11B551BFB00423DA9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		836F743E1B5844CF00AD611D /* iPFTPaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTPaintViewController.h; path = ../../Classes/iPFTPaintViewController.h; sourceTree = "<group>"; };
+		836F743F1B5844CF00AD611D /* iPFTPaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTPaintViewController.m; path = ../../Classes/iPFTPaintViewController.m; sourceTree = "<group>"; };
+		836F74401B5844CF00AD611D /* iPFTPaintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTPaintViewController.xib; path = ../../Classes/iPFTPaintViewController.xib; sourceTree = "<group>"; };
+		8375BA481B5BBC080024D276 /* iPFTPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTPersistence.h; path = ../../Classes/iPFTPersistence.h; sourceTree = "<group>"; };
+		8375BA491B5BBC080024D276 /* iPFTPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTPersistence.m; path = ../../Classes/iPFTPersistence.m; sourceTree = "<group>"; };
+		837EC94B1B245D4F00024B1D /* iPFTOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTOptionView.h; path = ../../Classes/iPFTOptionView.h; sourceTree = "<group>"; };
+		837EC94C1B245D4F00024B1D /* iPFTOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTOptionView.m; path = ../../Classes/iPFTOptionView.m; sourceTree = "<group>"; };
+		837EC94E1B247E8700024B1D /* iPFT_Option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Option.png; sourceTree = "<group>"; };
+		837EC94F1B247E8700024B1D /* iPFT_Option@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Option@2x.png"; sourceTree = "<group>"; };
+		83A609891B59415D004AF14D /* iPFT_Brush10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Brush10.png; sourceTree = "<group>"; };
+		83A6098A1B59415D004AF14D /* iPFT_Brush10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Brush10@2x.png"; sourceTree = "<group>"; };
+		83A6098B1B59415D004AF14D /* iPFT_Brush15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Brush15.png; sourceTree = "<group>"; };
+		83A6098C1B59415D004AF14D /* iPFT_Brush15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Brush15@2x.png"; sourceTree = "<group>"; };
+		83A6098D1B59415D004AF14D /* iPFT_Brush20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Brush20.png; sourceTree = "<group>"; };
+		83A6098E1B59415D004AF14D /* iPFT_Brush20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Brush20@2x.png"; sourceTree = "<group>"; };
+		83A609951B594165004AF14D /* iPFT_Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Eraser.png; sourceTree = "<group>"; };
+		83A609961B594165004AF14D /* iPFT_Eraser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Eraser@2x.png"; sourceTree = "<group>"; };
+		83BB52F31B284A7A0023D67D /* iPFTSubmitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTSubmitData.h; path = ../../Classes/iPFTSubmitData.h; sourceTree = "<group>"; };
+		83BB52F41B284A7A0023D67D /* iPFTSubmitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTSubmitData.m; path = ../../Classes/iPFTSubmitData.m; sourceTree = "<group>"; };
+		83BB52F61B28D0D60023D67D /* iPFTHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTHelpViewController.h; path = ../../Classes/iPFTHelpViewController.h; sourceTree = "<group>"; };
+		83BB52F71B28D0D60023D67D /* iPFTHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTHelpViewController.m; path = ../../Classes/iPFTHelpViewController.m; sourceTree = "<group>"; };
+		83BB52F81B28D0D60023D67D /* iPFTHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTHelpViewController.xib; path = ../../Classes/iPFTHelpViewController.xib; sourceTree = "<group>"; };
+		83D8842B1B63963E00D611BB /* iPFT_Annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Annotation.png; sourceTree = "<group>"; };
+		83D8842C1B63963E00D611BB /* iPFT_Annotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Annotation@2x.png"; sourceTree = "<group>"; };
+		83D8842F1B63964E00D611BB /* iPFT_TouchEvent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_TouchEvent.png; sourceTree = "<group>"; };
+		83D884301B63964E00D611BB /* iPFT_TouchEvent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_TouchEvent@2x.png"; sourceTree = "<group>"; };
+		83D884341B63DD4B00D611BB /* iPFTModuleRedmineTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTModuleRedmineTicket.h; path = ../../Classes/iPFTModuleRedmineTicket.h; sourceTree = "<group>"; };
+		83D884351B63DD4B00D611BB /* iPFTModuleRedmineTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTModuleRedmineTicket.m; path = ../../Classes/iPFTModuleRedmineTicket.m; sourceTree = "<group>"; };
+		83D884371B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iPFTModuleRedmineTicket.plist; path = ../../Classes/iPFTModuleRedmineTicket.plist; sourceTree = "<group>"; };
+		83D884391B63E39100D611BB /* iPFTConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iPFTConfig.h; path = ../../Classes/iPFTConfig.h; sourceTree = "<group>"; };
+		83EE95861B2D8009000CB5C2 /* iPFTLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTLogViewController.h; path = ../../Classes/iPFTLogViewController.h; sourceTree = "<group>"; };
+		83EE95871B2D8009000CB5C2 /* iPFTLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTLogViewController.m; path = ../../Classes/iPFTLogViewController.m; sourceTree = "<group>"; };
+		83EE95881B2D8009000CB5C2 /* iPFTLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTLogViewController.xib; path = ../../Classes/iPFTLogViewController.xib; sourceTree = "<group>"; };
+		83EE958B1B2DDEE3000CB5C2 /* iPFT_Failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Failed.png; sourceTree = "<group>"; };
+		83EE958C1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Failed@2x.png"; sourceTree = "<group>"; };
+		83EE958D1B2DDEE3000CB5C2 /* iPFT_Success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Success.png; sourceTree = "<group>"; };
+		83EE958E1B2DDEE3000CB5C2 /* iPFT_Success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Success@2x.png"; sourceTree = "<group>"; };
+		83EE958F1B2DDEE3000CB5C2 /* iPFT_Sending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Sending.png; sourceTree = "<group>"; };
+		83EE95981B2DDEE3000CB5C2 /* iPFT_Sending@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Sending@2x.png"; sourceTree = "<group>"; };
+		83F1C2D01B5C3E1E006B38BB /* iPFTGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iPFTGlobal.h; path = ../../Classes/iPFTGlobal.h; sourceTree = "<group>"; };
+		83F1C2D21B5C3F5E006B38BB /* iPFTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTModule.h; path = ../../Classes/iPFTModule.h; sourceTree = "<group>"; };
+		83F1C2D31B5C3F5E006B38BB /* iPFTModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTModule.m; path = ../../Classes/iPFTModule.m; sourceTree = "<group>"; };
+		83F1C2D51B5C3F7F006B38BB /* iPFTModuleNativeMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTModuleNativeMail.h; path = ../../Classes/iPFTModuleNativeMail.h; sourceTree = "<group>"; };
+		83F1C2D61B5C3F7F006B38BB /* iPFTModuleNativeMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTModuleNativeMail.m; path = ../../Classes/iPFTModuleNativeMail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831937F41B19D7C200EA3D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831937EE1B19D7C200EA3D96 = {
+			isa = PBXGroup;
+			children = (
+				832D3A071B21B2C6000A098D /* AudioToolbox.framework */,
+				831937F91B19D7C200EA3D96 /* iPhoneFeedbackToolExample */,
+				831938131B19D7C300EA3D96 /* iPhoneFeedbackToolExampleTests */,
+				831937F81B19D7C200EA3D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831937F81B19D7C200EA3D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831937F71B19D7C200EA3D96 /* iPhoneFeedbackToolExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831937F91B19D7C200EA3D96 /* iPhoneFeedbackToolExample */ = {
+			isa = PBXGroup;
+			children = (
+				832D39B21B1CA600000A098D /* iPhoneFeedbackTool */,
+				83D8843A1B658A0100D611BB /* Example App */,
+				831937FA1B19D7C200EA3D96 /* Supporting Files */,
+				83695EA01B551BF900423DA9 /* Localizable.strings */,
+			);
+			path = iPhoneFeedbackToolExample;
+			sourceTree = "<group>";
+		};
+		831937FA1B19D7C200EA3D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				831937FB1B19D7C200EA3D96 /* Info.plist */,
+				831937FC1B19D7C200EA3D96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		831938131B19D7C300EA3D96 /* iPhoneFeedbackToolExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				831938161B19D7C300EA3D96 /* iPhoneFeedbackToolExampleTests.m */,
+				831938141B19D7C300EA3D96 /* Supporting Files */,
+			);
+			path = iPhoneFeedbackToolExampleTests;
+			sourceTree = "<group>";
+		};
+		831938141B19D7C300EA3D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				831938151B19D7C300EA3D96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		832D39B21B1CA600000A098D /* iPhoneFeedbackTool */ = {
+			isa = PBXGroup;
+			children = (
+				832D39C11B1CA622000A098D /* iPhoneFeedbackTool.h */,
+				832D39C21B1CA622000A098D /* iPhoneFeedbackTool.m */,
+				83D884391B63E39100D611BB /* iPFTConfig.h */,
+				83F1C2D01B5C3E1E006B38BB /* iPFTGlobal.h */,
+				836F74511B5847AE00AD611D /* SubmitData */,
+				835BCDA51B5D141D009EC307 /* Persistence */,
+				836F74501B58475B00AD611D /* CustomComponents */,
+				836F744F1B58474700AD611D /* InfoViewController */,
+				836F744C1B5846B100AD611D /* MainViewController */,
+				836F744D1B5846D200AD611D /* MesssageViewController */,
+				836F744E1B5846E000AD611D /* OptionsViewController */,
+				836F74471B58466300AD611D /* SubmitViewController */,
+				836F74491B58468200AD611D /* HelpViewController */,
+				832D39D71B1CA69C000A098D /* images */,
+				832D39EE1B1CB310000A098D /* iPhoneFeedbackTool.bundle */,
+			);
+			name = iPhoneFeedbackTool;
+			sourceTree = "<group>";
+		};
+		832D39D71B1CA69C000A098D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				83A609951B594165004AF14D /* iPFT_Eraser.png */,
+				83A609961B594165004AF14D /* iPFT_Eraser@2x.png */,
+				83A609891B59415D004AF14D /* iPFT_Brush10.png */,
+				83A6098A1B59415D004AF14D /* iPFT_Brush10@2x.png */,
+				83A6098B1B59415D004AF14D /* iPFT_Brush15.png */,
+				83A6098C1B59415D004AF14D /* iPFT_Brush15@2x.png */,
+				83A6098D1B59415D004AF14D /* iPFT_Brush20.png */,
+				83A6098E1B59415D004AF14D /* iPFT_Brush20@2x.png */,
+				83D8842F1B63964E00D611BB /* iPFT_TouchEvent.png */,
+				83D884301B63964E00D611BB /* iPFT_TouchEvent@2x.png */,
+				83D8842B1B63963E00D611BB /* iPFT_Annotation.png */,
+				83D8842C1B63963E00D611BB /* iPFT_Annotation@2x.png */,
+				83EE958B1B2DDEE3000CB5C2 /* iPFT_Failed.png */,
+				83EE958C1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png */,
+				83EE958D1B2DDEE3000CB5C2 /* iPFT_Success.png */,
+				83EE958E1B2DDEE3000CB5C2 /* iPFT_Success@2x.png */,
+				83EE958F1B2DDEE3000CB5C2 /* iPFT_Sending.png */,
+				83EE95981B2DDEE3000CB5C2 /* iPFT_Sending@2x.png */,
+				832D39D81B1CA69C000A098D /* iPFT_Contact.png */,
+				832D39D91B1CA69C000A098D /* iPFT_Contact@2x.png */,
+				832D39DA1B1CA69C000A098D /* iPFT_StartFeedback.png */,
+				832D39DB1B1CA69C000A098D /* iPFT_StartFeedback@2x.png */,
+				832D39DC1B1CA69C000A098D /* iPFT_Shake.png */,
+				832D39DD1B1CA69C000A098D /* iPFT_Shake@2x.png */,
+				832D39DE1B1CA69C000A098D /* iPFT_WhiteBG.png */,
+				837EC94E1B247E8700024B1D /* iPFT_Option.png */,
+				837EC94F1B247E8700024B1D /* iPFT_Option@2x.png */,
+			);
+			name = images;
+			path = ../../Classes/images;
+			sourceTree = "<group>";
+		};
+		835BCDA51B5D141D009EC307 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				8375BA481B5BBC080024D276 /* iPFTPersistence.h */,
+				8375BA491B5BBC080024D276 /* iPFTPersistence.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		835BCDA61B5D1450009EC307 /* Native Mail */ = {
+			isa = PBXGroup;
+			children = (
+				83F1C2D51B5C3F7F006B38BB /* iPFTModuleNativeMail.h */,
+				83F1C2D61B5C3F7F006B38BB /* iPFTModuleNativeMail.m */,
+				832D39C01B1CA622000A098D /* iPFTModuleNativeMail.plist */,
+			);
+			name = "Native Mail";
+			sourceTree = "<group>";
+		};
+		836F74461B58464F00AD611D /* LogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83EE95861B2D8009000CB5C2 /* iPFTLogViewController.h */,
+				83EE95871B2D8009000CB5C2 /* iPFTLogViewController.m */,
+				83EE95881B2D8009000CB5C2 /* iPFTLogViewController.xib */,
+			);
+			name = LogViewController;
+			sourceTree = "<group>";
+		};
+		836F74471B58466300AD611D /* SubmitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				832D3A0E1B21E8E6000A098D /* iPFTSubmitViewController.h */,
+				832D3A0F1B21E8E6000A098D /* iPFTSubmitViewController.m */,
+				832D3A101B21E8E6000A098D /* iPFTSubmitViewController.xib */,
+				83F1C2D11B5C3EF5006B38BB /* SubmissionModules */,
+			);
+			name = SubmitViewController;
+			sourceTree = "<group>";
+		};
+		836F74491B58468200AD611D /* HelpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83BB52F61B28D0D60023D67D /* iPFTHelpViewController.h */,
+				83BB52F71B28D0D60023D67D /* iPFTHelpViewController.m */,
+				83BB52F81B28D0D60023D67D /* iPFTHelpViewController.xib */,
+			);
+			name = HelpViewController;
+			sourceTree = "<group>";
+		};
+		836F744A1B58469200AD611D /* AnnotationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				835972C31B47E69500C44A0A /* iPFTAnnotationViewController.h */,
+				835972C41B47E69500C44A0A /* iPFTAnnotationViewController.m */,
+				835972C51B47E69500C44A0A /* iPFTAnnotationViewController.xib */,
+				834F436C1B526BEC00F7C0F0 /* iPFTAnnotationView.h */,
+				834F436D1B526BEC00F7C0F0 /* iPFTAnnotationView.m */,
+			);
+			name = AnnotationViewController;
+			sourceTree = "<group>";
+		};
+		836F744B1B5846A000AD611D /* PaintViewController */ = {
+			isa = PBXGroup;
+			children = (
+				836F743E1B5844CF00AD611D /* iPFTPaintViewController.h */,
+				836F743F1B5844CF00AD611D /* iPFTPaintViewController.m */,
+				836F74401B5844CF00AD611D /* iPFTPaintViewController.xib */,
+			);
+			name = PaintViewController;
+			sourceTree = "<group>";
+		};
+		836F744C1B5846B100AD611D /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				832D39BB1B1CA622000A098D /* iPFTMainViewController.h */,
+				832D39BC1B1CA622000A098D /* iPFTMainViewController.m */,
+				832D39BD1B1CA622000A098D /* iPFTMainViewController.xib */,
+				836F744A1B58469200AD611D /* AnnotationViewController */,
+				836F744B1B5846A000AD611D /* PaintViewController */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		836F744D1B5846D200AD611D /* MesssageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				832D3A131B21EC02000A098D /* iPFTMessageViewController.h */,
+				832D3A141B21EC02000A098D /* iPFTMessageViewController.m */,
+				832D3A151B21EC02000A098D /* iPFTMessageViewController.xib */,
+			);
+			name = MesssageViewController;
+			sourceTree = "<group>";
+		};
+		836F744E1B5846E000AD611D /* OptionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				832D3A091B21E774000A098D /* iPFTOptionsViewController.h */,
+				832D3A0A1B21E774000A098D /* iPFTOptionsViewController.m */,
+				832D3A0B1B21E774000A098D /* iPFTOptionsViewController.xib */,
+				837EC94B1B245D4F00024B1D /* iPFTOptionView.h */,
+				837EC94C1B245D4F00024B1D /* iPFTOptionView.m */,
+				836F74461B58464F00AD611D /* LogViewController */,
+			);
+			name = OptionsViewController;
+			sourceTree = "<group>";
+		};
+		836F744F1B58474700AD611D /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				832D39B81B1CA622000A098D /* iPFTInfoViewController.h */,
+				832D39B91B1CA622000A098D /* iPFTInfoViewController.m */,
+				832D39BA1B1CA622000A098D /* iPFTInfoViewController.xib */,
+			);
+			name = InfoViewController;
+			sourceTree = "<group>";
+		};
+		836F74501B58475B00AD611D /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				832D39B61B1CA622000A098D /* iPFTBaseViewController.h */,
+				832D39B71B1CA622000A098D /* iPFTBaseViewController.m */,
+				832D39C31B1CA622000A098D /* UIViewController+iPFT.h */,
+				832D39C41B1CA622000A098D /* UIViewController+iPFT.m */,
+				83357EBD1B571E8F00A49472 /* iPFTNavigationController.h */,
+				83357EBE1B571E8F00A49472 /* iPFTNavigationController.m */,
+			);
+			name = CustomComponents;
+			sourceTree = "<group>";
+		};
+		836F74511B5847AE00AD611D /* SubmitData */ = {
+			isa = PBXGroup;
+			children = (
+				83BB52F31B284A7A0023D67D /* iPFTSubmitData.h */,
+				83BB52F41B284A7A0023D67D /* iPFTSubmitData.m */,
+			);
+			name = SubmitData;
+			sourceTree = "<group>";
+		};
+		83D884331B63DD1600D611BB /* Redmine Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				83D884341B63DD4B00D611BB /* iPFTModuleRedmineTicket.h */,
+				83D884351B63DD4B00D611BB /* iPFTModuleRedmineTicket.m */,
+				83D884371B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist */,
+			);
+			name = "Redmine Ticket";
+			sourceTree = "<group>";
+		};
+		83D8843A1B658A0100D611BB /* Example App */ = {
+			isa = PBXGroup;
+			children = (
+				831937FE1B19D7C200EA3D96 /* AppDelegate.h */,
+				831937FF1B19D7C200EA3D96 /* AppDelegate.m */,
+				831938011B19D7C200EA3D96 /* ViewController.h */,
+				831938021B19D7C200EA3D96 /* ViewController.m */,
+				831938041B19D7C200EA3D96 /* Main.storyboard */,
+				831938071B19D7C300EA3D96 /* Images.xcassets */,
+				831938091B19D7C300EA3D96 /* LaunchScreen.xib */,
+			);
+			name = "Example App";
+			sourceTree = "<group>";
+		};
+		83F1C2D11B5C3EF5006B38BB /* SubmissionModules */ = {
+			isa = PBXGroup;
+			children = (
+				83F1C2D21B5C3F5E006B38BB /* iPFTModule.h */,
+				83F1C2D31B5C3F5E006B38BB /* iPFTModule.m */,
+				835BCDA61B5D1450009EC307 /* Native Mail */,
+				83D884331B63DD1600D611BB /* Redmine Ticket */,
+			);
+			name = SubmissionModules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831937F61B19D7C200EA3D96 /* iPhoneFeedbackToolExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8319381A1B19D7C300EA3D96 /* Build configuration list for PBXNativeTarget "iPhoneFeedbackToolExample" */;
+			buildPhases = (
+				831937F31B19D7C200EA3D96 /* Sources */,
+				831937F41B19D7C200EA3D96 /* Frameworks */,
+				831937F51B19D7C200EA3D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneFeedbackToolExample;
+			productName = iPhoneFeedbackToolExample;
+			productReference = 831937F71B19D7C200EA3D96 /* iPhoneFeedbackToolExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831937EF1B19D7C200EA3D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Universität Siegen";
+				TargetAttributes = {
+					831937F61B19D7C200EA3D96 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7L55VZY7T9;
+					};
+				};
+			};
+			buildConfigurationList = 831937F21B19D7C200EA3D96 /* Build configuration list for PBXProject "iPhoneFeedbackToolExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 831937EE1B19D7C200EA3D96;
+			productRefGroup = 831937F81B19D7C200EA3D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831937F61B19D7C200EA3D96 /* iPhoneFeedbackToolExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831937F51B19D7C200EA3D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832D39CE1B1CA622000A098D /* iPFTModuleNativeMail.plist in Resources */,
+				832D39E61B1CA69C000A098D /* iPFT_Shake@2x.png in Resources */,
+				83A609931B59415D004AF14D /* iPFT_Brush20.png in Resources */,
+				832D39E51B1CA69C000A098D /* iPFT_Shake.png in Resources */,
+				832D39EF1B1CB310000A098D /* iPhoneFeedbackTool.bundle in Resources */,
+				83A609971B594165004AF14D /* iPFT_Eraser.png in Resources */,
+				83695E9E1B551BF900423DA9 /* Localizable.strings in Resources */,
+				83A609901B59415D004AF14D /* iPFT_Brush10@2x.png in Resources */,
+				83A609921B59415D004AF14D /* iPFT_Brush15@2x.png in Resources */,
+				837EC9501B247E8700024B1D /* iPFT_Option.png in Resources */,
+				83D8842D1B63963E00D611BB /* iPFT_Annotation.png in Resources */,
+				832D39E41B1CA69C000A098D /* iPFT_StartFeedback@2x.png in Resources */,
+				832D39E11B1CA69C000A098D /* iPFT_Contact.png in Resources */,
+				832D3A121B21E8E6000A098D /* iPFTSubmitViewController.xib in Resources */,
+				83D884321B63964E00D611BB /* iPFT_TouchEvent@2x.png in Resources */,
+				83A609941B59415D004AF14D /* iPFT_Brush20@2x.png in Resources */,
+				835972C71B47E69500C44A0A /* iPFTAnnotationViewController.xib in Resources */,
+				83A6098F1B59415D004AF14D /* iPFT_Brush10.png in Resources */,
+				831938061B19D7C200EA3D96 /* Main.storyboard in Resources */,
+				83D8842E1B63963E00D611BB /* iPFT_Annotation@2x.png in Resources */,
+				83A609911B59415D004AF14D /* iPFT_Brush15.png in Resources */,
+				83EE95991B2DDEE3000CB5C2 /* iPFT_Failed.png in Resources */,
+				832D39E21B1CA69C000A098D /* iPFT_Contact@2x.png in Resources */,
+				832D3A171B21EC02000A098D /* iPFTMessageViewController.xib in Resources */,
+				83BB52FA1B28D0D60023D67D /* iPFTHelpViewController.xib in Resources */,
+				832D39CC1B1CA622000A098D /* iPFTMainViewController.xib in Resources */,
+				832D39E31B1CA69C000A098D /* iPFT_StartFeedback.png in Resources */,
+				83D884381B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist in Resources */,
+				832D39CA1B1CA622000A098D /* iPFTInfoViewController.xib in Resources */,
+				83D884311B63964E00D611BB /* iPFT_TouchEvent.png in Resources */,
+				8319380B1B19D7C300EA3D96 /* LaunchScreen.xib in Resources */,
+				83EE959C1B2DDEE3000CB5C2 /* iPFT_Success@2x.png in Resources */,
+				836F74421B5844CF00AD611D /* iPFTPaintViewController.xib in Resources */,
+				832D3A0D1B21E774000A098D /* iPFTOptionsViewController.xib in Resources */,
+				832D39E71B1CA69C000A098D /* iPFT_WhiteBG.png in Resources */,
+				83EE958A1B2D8009000CB5C2 /* iPFTLogViewController.xib in Resources */,
+				83EE959B1B2DDEE3000CB5C2 /* iPFT_Success.png in Resources */,
+				837EC9511B247E8700024B1D /* iPFT_Option@2x.png in Resources */,
+				83EE95A61B2DDEE3000CB5C2 /* iPFT_Sending@2x.png in Resources */,
+				83EE959D1B2DDEE3000CB5C2 /* iPFT_Sending.png in Resources */,
+				83EE959A1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png in Resources */,
+				83A609981B594165004AF14D /* iPFT_Eraser@2x.png in Resources */,
+				831938081B19D7C300EA3D96 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831937F31B19D7C200EA3D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BB52F51B284A7A0023D67D /* iPFTSubmitData.m in Sources */,
+				832D39C91B1CA622000A098D /* iPFTInfoViewController.m in Sources */,
+				8375BA4A1B5BBC080024D276 /* iPFTPersistence.m in Sources */,
+				835972C61B47E69500C44A0A /* iPFTAnnotationViewController.m in Sources */,
+				832D39C81B1CA622000A098D /* iPFTBaseViewController.m in Sources */,
+				832D39CB1B1CA622000A098D /* iPFTMainViewController.m in Sources */,
+				834F436E1B526BEC00F7C0F0 /* iPFTAnnotationView.m in Sources */,
+				83F1C2D41B5C3F5E006B38BB /* iPFTModule.m in Sources */,
+				83357EBF1B571E8F00A49472 /* iPFTNavigationController.m in Sources */,
+				831938031B19D7C200EA3D96 /* ViewController.m in Sources */,
+				83EE95891B2D8009000CB5C2 /* iPFTLogViewController.m in Sources */,
+				83F1C2D71B5C3F7F006B38BB /* iPFTModuleNativeMail.m in Sources */,
+				837EC94D1B245D4F00024B1D /* iPFTOptionView.m in Sources */,
+				832D39CF1B1CA622000A098D /* iPhoneFeedbackTool.m in Sources */,
+				831938001B19D7C200EA3D96 /* AppDelegate.m in Sources */,
+				83BB52F91B28D0D60023D67D /* iPFTHelpViewController.m in Sources */,
+				836F74411B5844CF00AD611D /* iPFTPaintViewController.m in Sources */,
+				831937FD1B19D7C200EA3D96 /* main.m in Sources */,
+				832D3A0C1B21E774000A098D /* iPFTOptionsViewController.m in Sources */,
+				832D3A161B21EC02000A098D /* iPFTMessageViewController.m in Sources */,
+				832D39D01B1CA622000A098D /* UIViewController+iPFT.m in Sources */,
+				83D884361B63DD4B00D611BB /* iPFTModuleRedmineTicket.m in Sources */,
+				832D3A111B21E8E6000A098D /* iPFTSubmitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		831938041B19D7C200EA3D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831938051B19D7C200EA3D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		831938091B19D7C300EA3D96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8319380A1B19D7C300EA3D96 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		83695EA01B551BF900423DA9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83695E9F1B551BF900423DA9 /* en */,
+				83695EA11B551BFB00423DA9 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831938181B19D7C300EA3D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		831938191B19D7C300EA3D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8319381B1B19D7C300EA3D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iPhoneFeedbackToolExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8319381C1B19D7C300EA3D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iPhoneFeedbackToolExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831937F21B19D7C200EA3D96 /* Build configuration list for PBXProject "iPhoneFeedbackToolExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831938181B19D7C300EA3D96 /* Debug */,
+				831938191B19D7C300EA3D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8319381A1B19D7C300EA3D96 /* Build configuration list for PBXNativeTarget "iPhoneFeedbackToolExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8319381B1B19D7C300EA3D96 /* Debug */,
+				8319381C1B19D7C300EA3D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831937EF1B19D7C200EA3D96 /* Project object */;
+}

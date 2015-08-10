@@ -1,0 +1,101 @@
+/* 
+  iPhoneFeedbackTool.strings
+  iPhoneFeedbackTool
+
+  Created by Christian Neumann on 02.05.15.
+  Copyright (c) 2015 Christian Neumann, University of Siegen. All rights reserved.
+*/
+
+"iPFT_WELCOME_TITLE" = "Shake Geste erkannt";
+"iPFT_WELCOME_DESC"  = "Wenn du dein Gerät schüttelst, wird ein Screenshot der aktuellen Ansicht gemacht. Du kannst ihn dann annotieren oder einfach eine allgemeine Nachricht dazu schreiben und ihn direkt an das Entwicklerteam schicken.\n\nEs steht dir außerdem ein Zeichenstift zur Verfügung, mit dem du private Daten einfach schwärzen kannst.";
+
+"iPFT_CONTACT_TITLE"       = "Kontakt Informationen";
+"iPFT_CONTACT_DESC"        = "Damit wir uns bei Rückfragen an dich wenden können, kannst du uns deinen Namen und deine Email Adresse mitteilen.";
+"iPFT_CONTACT_DISCLAIMER"  = "Die Angabe ist freiwillig und kann für jedes Feedback geändert werden.";
+"iPFT_CONTACT_ENTER_NAME"  = "Namen eingeben";
+"iPFT_CONTACT_ENTER_EMAIL" = "Emailadresse eingeben";
+
+"iPFT_START_TITLE"  = "Hilfeseite";
+"iPFT_START_DESC"   = "Solltest du bei dem Erstellen deines Feedbacks einmal nicht weiterkommen, findest du oben rechts einen Info Button, der dich zu einer Hilfeseite führt.";
+"iPFT_START_BUTTON" = "Los geht´s";
+
+"iPFT_BUTTON_NEXT"   = "Weiter";
+"iPFT_BUTTON_SEND"   = "Senden";
+"iPFT_BUTTON_DONE"   = "Fertig";
+"iPFT_BUTTON_EDIT"   = "Ändern";
+"iPFT_BUTTON_VIEW"   = "Ansehen";
+"iPFT_BUTTON_OK"     = "Ok";
+"iPFT_BUTTON_YES"    = "Ja";
+"iPFT_BUTTON_NO"     = "Nein";
+"iPFT_BUTTON_DELETE" = "Löschen";
+"iPFT_BUTTON_CANCEL" = "Abbrechen";
+
+"iPFT_SEGMENT_LOG"   = "App Log";
+"iPFT_SEGMENT_STACK" = "Stacktrace";
+
+"iPFT_TITLE_MAIN"      = "Annotation";
+"iPFT_TITLE_MESSAGE"   = "Nachricht";
+"iPFT_TITLE_OPTIONS"   = "Optionen";
+"iPFT_TITLE_SUBMIT"    = "Übermitteln";
+"iPFT_TITLE_HELP"      = "Information";
+"iPFT_TITLE_VIEWLOG"   = "Log";
+"iPFT_TITLE_VIEWSTACK" = "Stacktrace";
+
+"iPFT_SUBMIT_TITLE"    = "Fertig!";
+"iPFT_SUBMIT_DESC"     = "Vielen Dank für deine Unterstützung. Wenn du jetzt auf \"Senden\" drückst, wird dein Feedback an das Entwicklerteam gesendet.";
+
+"iPFT_VIEWLOG_DESC"   = "Dies wird übertragen";
+
+"iPFT_MESSAGE_DESC"        = "Wenn du deinem Feedback noch ein paar Worte hinzufügen möchtest, hast du hier die Möglichkeit dazu.";
+"iPFT_MESSAGE_PLACEHOLDER" = "Sag uns deine Meinung...";
+"iPFT_OPTIONS_DESC"        = "Mit diesen Optionen kannst du bestimmen, welche Daten an die Entwickler übertragen werden sollen.";
+
+"iPFT_OPTIONS_NAME"            = "Name und Email";
+"iPFT_OPTIONS_SCREENSHOT"      = "Screenshot";
+"iPFT_OPTIONS_SCREENSHOT_DESC" = "Den von dir bearbeiteten Screenshot übermitteln";
+"iPFT_OPTIONS_MESSAGE"         = "Nachricht";
+"iPFT_OPTIONS_MESSAGE_DESC"    = "Die von dir erstellte Nachricht übermitteln";
+"iPFT_OPTIONS_STACKTRACE"      = "Stacktrace";
+"iPFT_OPTIONS_STACKTRACE_DESC" = "Den aktuellen Stacktrace sowie das App Log übermitteln";
+
+"iPFT_ALERT_CONFIRM_DELETE_TITLE"  = "Bitte bestätigen";
+"iPFT_ALERT_CONFIRM_DELETE_MSG"    = "Möchtest du die Annotation wirklich löschen?";
+"iPFT_ALERT_MAX_ANNOTATIONS_TITLE" = "Limit erreicht";
+"iPFT_ALERT_MAX_ANNOTATIONS_MSG"   = "Es sind nur %i Annotations pro Feedback Nachricht vorgesehen.";
+"iPFT_ALERT_NOMAIL_TITLE"          = "Fehlgeschlagen";
+"iPFT_ALERT_NOMAIL_MSG"            = "Bitte füge deiner Email App ein Email Konto hinzu";
+"iPFT_ALERT_NEWCONTACT_TITLE"      = "Neue Kontaktdaten";
+"iPFT_ALERT_NEWCONTACT_MSG"        = "Bitte gib hier deine neuen Kontaktdaten ein";
+"iPFT_ALERT_FEEDBACK_SENT_TITLE"   = "Feedback versendet";
+"iPFT_ALERT_FEEDBACK_SENT_MSG"     = "Deine Feedback Nachricht wurde erfolgreich übermittelt.";
+"iPFT_ALERT_FEEDBACK_FAILED_TITLE" = "Senden fehlgeschlagen";
+"iPFT_ALERT_FEEDBACK_FAILED_MSG"   = "Beim Versenden des Feedbacks trat ein Fehler auf:\n\n%@";
+
+"iPFT_ANNOTATION_DESC"        = "Hier kannst du deinen Screenshot annotieren und Bereiche schwärzen.";
+"iPFT_ANNOTATION_PLACEHOLDER" = "Text hier eingeben...";
+"iPFT_ANNOTATION_TITLE"       = "# %i";
+"iPFT_ANNOTATION_TOUCH_INFO"  = "Doppeltippen oder lang antippen, um neue Annotationen zu erstellen. Tippe \"Bearbeiten\", um zu schwärzen.";
+
+"iPFT_EMAIL_SUBJECT"    = "App Feedback";
+"iPFT_EMAIL_TIMESTAMP"  = "Datum";
+"iPFT_EMAIL_APPNAME"    = "App Name";
+"iPFT_EMAIL_APPVERSION" = "App Version";
+"iPFT_EMAIL_APPBUILD"   = "App Build";
+"iPFT_EMAIL_USERNAME"   = "Anwender Name";
+"iPFT_EMAIL_USEREMAIL"  = "Anwender Email";
+"iPFT_EMAIL_ANNOTATION" = "Annotation # %i";
+"iPFT_EMAIL_MESSAGE"    = "Nachricht";
+"iPFT_EMAIL_STACKTRACE" = "Stacktrace";
+"iPFT_EMAIL_APPLOG"     = "Log";
+"iPFT_EMAIL_SCREENSHOT" = "Screenshot";
+"iPFT_EMAIL_IOSVERSION" = "iOS Version";
+
+"iPFT_ERROR_COULD_NOT_READ_DATA"         = "Daten konnten nicht gelesen werden.";
+"iPFT_ERROR_COULD_NOT_ACCESS_SCREENSHOT" = "Fehler beim Zugriff auf den Screenshot.";
+"iPFT_ERROR_PARSE_FAILED"                = "Konnte Server Antwort nicht einlesen";
+
+
+
+
+
+

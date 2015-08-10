@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apiURL</key>
+	<string>https://cuni.alpheca.uberspace.de</string>
+	<key>apiKey</key>
+	<string>9e66db622f2268cd80b32ebc3c4aad6830b27b51</string>
+	<key>apiTrackerId</key>
+	<integer>3</integer>
+	<key>apiProjectId</key>
+	<integer>1</integer>
+</dict>
+</plist>
