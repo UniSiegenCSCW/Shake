@@ -1,10 +1,10 @@
 # Shake 1.0
 
-This project is a drop-in library that supports developers to gather productive feedback from their app users (i.e. beta testers).
+This project is a drop-in library that supports developers to gather productive feedback from their app users (e.g. beta testers).
 
 ## Description
 
-When an app user shakes the device, a screenshot of the current view is taken and the user can annotate it or add a general message as a feedback and send it to the developers.
+When an app user shakes the device, a screenshot of the current view is taken and the user can annotate it or add a general message as feedback and send it to the developers.
 
 ## Installation
 
@@ -12,7 +12,7 @@ When an app user shakes the device, a screenshot of the current view is taken an
 1. Unzip it
 1. Drag & drop the content of the "classes" folder to your project
 
-The project is already setup tp send a mail to the developers using the native apple mail app.
+The project is already setup to send an e-mail to the developers using the native Apple Mail app.
 Enter the name of the development team and the email address in 
   
 	iPFTModuleNativeMail.plist
