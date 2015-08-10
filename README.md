@@ -1,4 +1,4 @@
-# iPhoneFeedbackTool 1.0
+# Shake 1.0
 
 This project is a drop-in library that supports developers to gather productive feedback from their app users (i.e. beta testers).
 
