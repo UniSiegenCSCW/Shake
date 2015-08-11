@@ -31,8 +31,8 @@
 
 // Setup active submit module
 // If you have more than one module set to be active, the first one found will be used
-#define MODULE_NATIVE_MAIL 0 /**< Native mail module */
-#define MODULE_REDMINE     1 /**< Redmine ticket module */
+#define MODULE_NATIVE_MAIL 1 /**< Native mail module */
+#define MODULE_REDMINE     0 /**< Redmine ticket module */
 
 // Setup how often the info views are shown
 #define ALWAYS_SHOW_INFO_VIEW            0 /**< Main info view status */

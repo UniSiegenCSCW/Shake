@@ -30,6 +30,8 @@ Then enter your data in
 
 	iPFTModuleRedmineTicket.plist
 
+Currently, only one module can be used at a time.  
+
 ## Usage
 
 Tell your users to shake their devices :)
