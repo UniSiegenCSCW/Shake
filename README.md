@@ -45,6 +45,22 @@ The feedback process works as follows:
 1. The third step is an overview of the information that will be sent to the developers. Here the user has the ability to exclude information from the submission process.
 1. The fourth step sends the data to the developers and informs the user about the submission status, before it sends the user back into the main app.
 
+## Customization
+
+If you need to make changes to the language files or if you want to add additional languages, look into this bundle:
+
+	iPhoneFeedbackTool.bundle
+	
+In the bundle you can find the folders containing the language files
+
+	iPhoneFeedbackTool.strings
+
+and the content of the help/info page
+
+	help.html
+	
+If you want to support this project, feel free to send in missing translations. Thank you!
+
 ## Future Directions
 
 1. Provide CocoaPods podspec installation
