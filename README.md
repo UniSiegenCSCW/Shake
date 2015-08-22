@@ -30,11 +30,20 @@ Then enter your data in
 
 	iPFTModuleRedmineTicket.plist
 
-Currently, only one module can be used at a time.  
+Currently, only one module can be used at a time. Future versions of the tool might let you use the modules (Mail, Redmine, ...) simultaneously. 
+If you activate more than one module in the config file, the sending process will abort after the first module has been processed.
 
 ## Usage
 
 Tell your users to shake their devices :)
+
+On their first shake they see a quick explanation of what the tool is about. They have the ability to enter their name and email address and then the actual feedback process will start.
+The feedback process works as follows:
+
+1. As a first step a screenshot of the current view is taken and presented to the user. The user can add up to 9 annotations to the screenshot to explain his issue(s) and edit the screenshot to blackout parts of the image (e.g. privacy protection).
+1. In the second step the user can leave a feedback message that is not connected to an annotation.
+1. The third step is an overview of the information that will be sent to the developers. Here the user has the ability to exclude information from the submission process.
+1. The fourth step sends the data to the developers and informs the user about the submission status, before it sends the user back into the main app.
 
 ## Future Directions
 
