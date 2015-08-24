@@ -113,7 +113,7 @@ The artwork for this project is based on the following resources
 
 1. iPFT_Shake.png
 
-        https://www.iconfinder.com/icons/476326/call_handheld_iphone_mobile_phone_smartphone_telepho
+        https://www.iconfinder.com/icons/476326/call_handheld_iphone_mobile_phone_smartphone_telephone_icon
         License: Free for commercial use
 
         https://www.iconfinder.com/icons/50785/arrow_right_icon#size=64
@@ -126,7 +126,7 @@ The artwork for this project is based on the following resources
 
 3. iPFT_StartFeedback.png
 
-		https://www.iconfinder.com/icons/322295/accepted_agree_communication_creative_facebook_favor
+		https://www.iconfinder.com/icons/322295/accepted_agree_communication_creative_facebook_favorite_grid_hand_like_ok_outline_shape_social-media_social-network_thumbs-up_up_icon
 		License: Creative Commons (Attribution 2.5 Generic)
 
 4. iPFT_Option.png
