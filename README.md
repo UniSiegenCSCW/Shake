@@ -126,36 +126,36 @@ The artwork for this project is based on the following resources
 
 3. iPFT_StartFeedback.png
 
-	https://www.iconfinder.com/icons/322295/accepted_agree_communication_creative_facebook_favor
-	License: Creative Commons (Attribution 2.5 Generic)
+		https://www.iconfinder.com/icons/322295/accepted_agree_communication_creative_facebook_favor
+		License: Creative Commons (Attribution 2.5 Generic)
 
 4. iPFT_Option.png
 
-	https://www.iconfinder.com/icons/326563/box_check_icon#size=128
-	License: Free for commercial use
+		https://www.iconfinder.com/icons/326563/box_check_icon#size=128
+		License: Free for commercial use
 
 5. iPFT_Sending.png
 
-	https://www.iconfinder.com/icons/186386/paper_plane_plane_send_icon#size=128
-	License: Free for commercial use
+		https://www.iconfinder.com/icons/186386/paper_plane_plane_send_icon#size=128
+		License: Free for commercial use
 
 6. iPFT_TouchEvent.png
 
-	https://www.iconfinder.com/icons/310114/apps_calling_fingers_games_mobile_mobile_phone_phone_screen_touch_touching_touchscreen_icon#size=128
-	License: Free for commercial use 
+		https://www.iconfinder.com/icons/310114/apps_calling_fingers_games_mobile_mobile_phone_phone_screen_touch_touching_touchscreen_icon#size=128
+		License: Free for commercial use 
 
 7. iPFT_Brush.png
 
-	https://www.iconfinder.com/icons/284087/edit_editor_pen_pencil_write_icon#size=128
-	License: Free for commercial use
+		https://www.iconfinder.com/icons/284087/edit_editor_pen_pencil_write_icon#size=128
+		License: Free for commercial use
 
 8. iPFT_Success.png
 
-	https://www.iconfinder.com/icons/186405/available_checkmark_done_icon#size=256
-	License: Free for commercial use
+		https://www.iconfinder.com/icons/186405/available_checkmark_done_icon#size=256
+		License: Free for commercial use
 
 9. iPFT_Failed.png
 
-	https://www.iconfinder.com/icons/186389/delete_remove_icon#size=128
-	License: Free for commercial use
+		https://www.iconfinder.com/icons/186389/delete_remove_icon#size=128
+		License: Free for commercial use
 
