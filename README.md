@@ -6,6 +6,10 @@ This project is a drop-in library that supports developers to gather productive 
 
 When an app user shakes the device, a screenshot of the current view is taken and the user can annotate it or add a general message as feedback and send it to the developers.
 
+## Project Homepage
+
+*	**[www.coming-soon.de (DEAD LINK)](http://www.google.com)**
+
 ## Installation
 
 1. Download the project
@@ -45,6 +49,12 @@ The feedback process works as follows:
 1. The third step is an overview of the information that will be sent to the developers. Here the user has the ability to exclude information from the submission process.
 1. The fourth step sends the data to the developers and informs the user about the submission status, before it sends the user back into the main app.
 
+## User Manuals
+
+*	**[German (DEAD LINK)](http://www.google.com)**
+
+*	**[English (DEAD LINK)](http://www.google.com)**
+
 ## Customization
 
 If you need to make changes to the language files or if you want to add additional languages, look into this bundle:
@@ -68,6 +78,10 @@ If you want to support this project, feel free to send in missing translations. 
 1. Support GitLab 
 1. API for custom use
 1. Save feedback for later use (support offline feedback)
+
+## Screenshots
+
+
 
 ## License
 
