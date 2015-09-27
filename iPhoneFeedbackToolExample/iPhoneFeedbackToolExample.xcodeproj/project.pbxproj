@@ -21,13 +21,6 @@
 		832D39CE1B1CA622000A098D /* iPFTModuleNativeMail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 832D39C01B1CA622000A098D /* iPFTModuleNativeMail.plist */; };
 		832D39CF1B1CA622000A098D /* iPhoneFeedbackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D39C21B1CA622000A098D /* iPhoneFeedbackTool.m */; };
 		832D39D01B1CA622000A098D /* UIViewController+iPFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D39C41B1CA622000A098D /* UIViewController+iPFT.m */; };
-		832D39E11B1CA69C000A098D /* iPFT_Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39D81B1CA69C000A098D /* iPFT_Contact.png */; };
-		832D39E21B1CA69C000A098D /* iPFT_Contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39D91B1CA69C000A098D /* iPFT_Contact@2x.png */; };
-		832D39E31B1CA69C000A098D /* iPFT_StartFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DA1B1CA69C000A098D /* iPFT_StartFeedback.png */; };
-		832D39E41B1CA69C000A098D /* iPFT_StartFeedback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DB1B1CA69C000A098D /* iPFT_StartFeedback@2x.png */; };
-		832D39E51B1CA69C000A098D /* iPFT_Shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DC1B1CA69C000A098D /* iPFT_Shake.png */; };
-		832D39E61B1CA69C000A098D /* iPFT_Shake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DD1B1CA69C000A098D /* iPFT_Shake@2x.png */; };
-		832D39E71B1CA69C000A098D /* iPFT_WhiteBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 832D39DE1B1CA69C000A098D /* iPFT_WhiteBG.png */; };
 		832D39EF1B1CB310000A098D /* iPhoneFeedbackTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 832D39EE1B1CB310000A098D /* iPhoneFeedbackTool.bundle */; };
 		832D3A0C1B21E774000A098D /* iPFTOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D3A0A1B21E774000A098D /* iPFTOptionsViewController.m */; };
 		832D3A0D1B21E774000A098D /* iPFTOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832D3A0B1B21E774000A098D /* iPFTOptionsViewController.xib */; };
@@ -44,33 +37,13 @@
 		836F74421B5844CF00AD611D /* iPFTPaintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836F74401B5844CF00AD611D /* iPFTPaintViewController.xib */; };
 		8375BA4A1B5BBC080024D276 /* iPFTPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8375BA491B5BBC080024D276 /* iPFTPersistence.m */; };
 		837EC94D1B245D4F00024B1D /* iPFTOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837EC94C1B245D4F00024B1D /* iPFTOptionView.m */; };
-		837EC9501B247E8700024B1D /* iPFT_Option.png in Resources */ = {isa = PBXBuildFile; fileRef = 837EC94E1B247E8700024B1D /* iPFT_Option.png */; };
-		837EC9511B247E8700024B1D /* iPFT_Option@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837EC94F1B247E8700024B1D /* iPFT_Option@2x.png */; };
-		83A6098F1B59415D004AF14D /* iPFT_Brush10.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A609891B59415D004AF14D /* iPFT_Brush10.png */; };
-		83A609901B59415D004AF14D /* iPFT_Brush10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098A1B59415D004AF14D /* iPFT_Brush10@2x.png */; };
-		83A609911B59415D004AF14D /* iPFT_Brush15.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098B1B59415D004AF14D /* iPFT_Brush15.png */; };
-		83A609921B59415D004AF14D /* iPFT_Brush15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098C1B59415D004AF14D /* iPFT_Brush15@2x.png */; };
-		83A609931B59415D004AF14D /* iPFT_Brush20.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098D1B59415D004AF14D /* iPFT_Brush20.png */; };
-		83A609941B59415D004AF14D /* iPFT_Brush20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A6098E1B59415D004AF14D /* iPFT_Brush20@2x.png */; };
-		83A609971B594165004AF14D /* iPFT_Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A609951B594165004AF14D /* iPFT_Eraser.png */; };
-		83A609981B594165004AF14D /* iPFT_Eraser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A609961B594165004AF14D /* iPFT_Eraser@2x.png */; };
 		83BB52F51B284A7A0023D67D /* iPFTSubmitData.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB52F41B284A7A0023D67D /* iPFTSubmitData.m */; };
 		83BB52F91B28D0D60023D67D /* iPFTHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB52F71B28D0D60023D67D /* iPFTHelpViewController.m */; };
 		83BB52FA1B28D0D60023D67D /* iPFTHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83BB52F81B28D0D60023D67D /* iPFTHelpViewController.xib */; };
-		83D8842D1B63963E00D611BB /* iPFT_Annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D8842B1B63963E00D611BB /* iPFT_Annotation.png */; };
-		83D8842E1B63963E00D611BB /* iPFT_Annotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D8842C1B63963E00D611BB /* iPFT_Annotation@2x.png */; };
-		83D884311B63964E00D611BB /* iPFT_TouchEvent.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D8842F1B63964E00D611BB /* iPFT_TouchEvent.png */; };
-		83D884321B63964E00D611BB /* iPFT_TouchEvent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D884301B63964E00D611BB /* iPFT_TouchEvent@2x.png */; };
 		83D884361B63DD4B00D611BB /* iPFTModuleRedmineTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D884351B63DD4B00D611BB /* iPFTModuleRedmineTicket.m */; };
 		83D884381B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D884371B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist */; };
 		83EE95891B2D8009000CB5C2 /* iPFTLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EE95871B2D8009000CB5C2 /* iPFTLogViewController.m */; };
 		83EE958A1B2D8009000CB5C2 /* iPFTLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EE95881B2D8009000CB5C2 /* iPFTLogViewController.xib */; };
-		83EE95991B2DDEE3000CB5C2 /* iPFT_Failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958B1B2DDEE3000CB5C2 /* iPFT_Failed.png */; };
-		83EE959A1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958C1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png */; };
-		83EE959B1B2DDEE3000CB5C2 /* iPFT_Success.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958D1B2DDEE3000CB5C2 /* iPFT_Success.png */; };
-		83EE959C1B2DDEE3000CB5C2 /* iPFT_Success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958E1B2DDEE3000CB5C2 /* iPFT_Success@2x.png */; };
-		83EE959D1B2DDEE3000CB5C2 /* iPFT_Sending.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE958F1B2DDEE3000CB5C2 /* iPFT_Sending.png */; };
-		83EE95A61B2DDEE3000CB5C2 /* iPFT_Sending@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EE95981B2DDEE3000CB5C2 /* iPFT_Sending@2x.png */; };
 		83F1C2D41B5C3F5E006B38BB /* iPFTModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F1C2D31B5C3F5E006B38BB /* iPFTModule.m */; };
 		83F1C2D71B5C3F7F006B38BB /* iPFTModuleNativeMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F1C2D61B5C3F7F006B38BB /* iPFTModuleNativeMail.m */; };
 /* End PBXBuildFile section */
@@ -101,13 +74,6 @@
 		832D39C21B1CA622000A098D /* iPhoneFeedbackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneFeedbackTool.m; path = ../../Classes/iPhoneFeedbackTool.m; sourceTree = "<group>"; };
 		832D39C31B1CA622000A098D /* UIViewController+iPFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+iPFT.h"; path = "../../Classes/UIViewController+iPFT.h"; sourceTree = "<group>"; };
 		832D39C41B1CA622000A098D /* UIViewController+iPFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+iPFT.m"; path = "../../Classes/UIViewController+iPFT.m"; sourceTree = "<group>"; };
-		832D39D81B1CA69C000A098D /* iPFT_Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Contact.png; sourceTree = "<group>"; };
-		832D39D91B1CA69C000A098D /* iPFT_Contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Contact@2x.png"; sourceTree = "<group>"; };
-		832D39DA1B1CA69C000A098D /* iPFT_StartFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_StartFeedback.png; sourceTree = "<group>"; };
-		832D39DB1B1CA69C000A098D /* iPFT_StartFeedback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_StartFeedback@2x.png"; sourceTree = "<group>"; };
-		832D39DC1B1CA69C000A098D /* iPFT_Shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Shake.png; sourceTree = "<group>"; };
-		832D39DD1B1CA69C000A098D /* iPFT_Shake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Shake@2x.png"; sourceTree = "<group>"; };
-		832D39DE1B1CA69C000A098D /* iPFT_WhiteBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_WhiteBG.png; sourceTree = "<group>"; };
 		832D39EE1B1CB310000A098D /* iPhoneFeedbackTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iPhoneFeedbackTool.bundle; path = ../../Classes/iPhoneFeedbackTool.bundle; sourceTree = "<group>"; };
 		832D3A071B21B2C6000A098D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		832D3A091B21E774000A098D /* iPFTOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTOptionsViewController.h; path = ../../Classes/iPFTOptionsViewController.h; sourceTree = "<group>"; };
@@ -135,25 +101,11 @@
 		8375BA491B5BBC080024D276 /* iPFTPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTPersistence.m; path = ../../Classes/iPFTPersistence.m; sourceTree = "<group>"; };
 		837EC94B1B245D4F00024B1D /* iPFTOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTOptionView.h; path = ../../Classes/iPFTOptionView.h; sourceTree = "<group>"; };
 		837EC94C1B245D4F00024B1D /* iPFTOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTOptionView.m; path = ../../Classes/iPFTOptionView.m; sourceTree = "<group>"; };
-		837EC94E1B247E8700024B1D /* iPFT_Option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Option.png; sourceTree = "<group>"; };
-		837EC94F1B247E8700024B1D /* iPFT_Option@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Option@2x.png"; sourceTree = "<group>"; };
-		83A609891B59415D004AF14D /* iPFT_Brush10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Brush10.png; sourceTree = "<group>"; };
-		83A6098A1B59415D004AF14D /* iPFT_Brush10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Brush10@2x.png"; sourceTree = "<group>"; };
-		83A6098B1B59415D004AF14D /* iPFT_Brush15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Brush15.png; sourceTree = "<group>"; };
-		83A6098C1B59415D004AF14D /* iPFT_Brush15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Brush15@2x.png"; sourceTree = "<group>"; };
-		83A6098D1B59415D004AF14D /* iPFT_Brush20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Brush20.png; sourceTree = "<group>"; };
-		83A6098E1B59415D004AF14D /* iPFT_Brush20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Brush20@2x.png"; sourceTree = "<group>"; };
-		83A609951B594165004AF14D /* iPFT_Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Eraser.png; sourceTree = "<group>"; };
-		83A609961B594165004AF14D /* iPFT_Eraser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Eraser@2x.png"; sourceTree = "<group>"; };
 		83BB52F31B284A7A0023D67D /* iPFTSubmitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTSubmitData.h; path = ../../Classes/iPFTSubmitData.h; sourceTree = "<group>"; };
 		83BB52F41B284A7A0023D67D /* iPFTSubmitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTSubmitData.m; path = ../../Classes/iPFTSubmitData.m; sourceTree = "<group>"; };
 		83BB52F61B28D0D60023D67D /* iPFTHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTHelpViewController.h; path = ../../Classes/iPFTHelpViewController.h; sourceTree = "<group>"; };
 		83BB52F71B28D0D60023D67D /* iPFTHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTHelpViewController.m; path = ../../Classes/iPFTHelpViewController.m; sourceTree = "<group>"; };
 		83BB52F81B28D0D60023D67D /* iPFTHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTHelpViewController.xib; path = ../../Classes/iPFTHelpViewController.xib; sourceTree = "<group>"; };
-		83D8842B1B63963E00D611BB /* iPFT_Annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Annotation.png; sourceTree = "<group>"; };
-		83D8842C1B63963E00D611BB /* iPFT_Annotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Annotation@2x.png"; sourceTree = "<group>"; };
-		83D8842F1B63964E00D611BB /* iPFT_TouchEvent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_TouchEvent.png; sourceTree = "<group>"; };
-		83D884301B63964E00D611BB /* iPFT_TouchEvent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_TouchEvent@2x.png"; sourceTree = "<group>"; };
 		83D884341B63DD4B00D611BB /* iPFTModuleRedmineTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTModuleRedmineTicket.h; path = ../../Classes/iPFTModuleRedmineTicket.h; sourceTree = "<group>"; };
 		83D884351B63DD4B00D611BB /* iPFTModuleRedmineTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTModuleRedmineTicket.m; path = ../../Classes/iPFTModuleRedmineTicket.m; sourceTree = "<group>"; };
 		83D884371B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iPFTModuleRedmineTicket.plist; path = ../../Classes/iPFTModuleRedmineTicket.plist; sourceTree = "<group>"; };
@@ -161,12 +113,6 @@
 		83EE95861B2D8009000CB5C2 /* iPFTLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTLogViewController.h; path = ../../Classes/iPFTLogViewController.h; sourceTree = "<group>"; };
 		83EE95871B2D8009000CB5C2 /* iPFTLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTLogViewController.m; path = ../../Classes/iPFTLogViewController.m; sourceTree = "<group>"; };
 		83EE95881B2D8009000CB5C2 /* iPFTLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPFTLogViewController.xib; path = ../../Classes/iPFTLogViewController.xib; sourceTree = "<group>"; };
-		83EE958B1B2DDEE3000CB5C2 /* iPFT_Failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Failed.png; sourceTree = "<group>"; };
-		83EE958C1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Failed@2x.png"; sourceTree = "<group>"; };
-		83EE958D1B2DDEE3000CB5C2 /* iPFT_Success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Success.png; sourceTree = "<group>"; };
-		83EE958E1B2DDEE3000CB5C2 /* iPFT_Success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Success@2x.png"; sourceTree = "<group>"; };
-		83EE958F1B2DDEE3000CB5C2 /* iPFT_Sending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPFT_Sending.png; sourceTree = "<group>"; };
-		83EE95981B2DDEE3000CB5C2 /* iPFT_Sending@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPFT_Sending@2x.png"; sourceTree = "<group>"; };
 		83F1C2D01B5C3E1E006B38BB /* iPFTGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iPFTGlobal.h; path = ../../Classes/iPFTGlobal.h; sourceTree = "<group>"; };
 		83F1C2D21B5C3F5E006B38BB /* iPFTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPFTModule.h; path = ../../Classes/iPFTModule.h; sourceTree = "<group>"; };
 		83F1C2D31B5C3F5E006B38BB /* iPFTModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPFTModule.m; path = ../../Classes/iPFTModule.m; sourceTree = "<group>"; };
@@ -265,33 +211,6 @@
 		832D39D71B1CA69C000A098D /* images */ = {
 			isa = PBXGroup;
 			children = (
-				83A609951B594165004AF14D /* iPFT_Eraser.png */,
-				83A609961B594165004AF14D /* iPFT_Eraser@2x.png */,
-				83A609891B59415D004AF14D /* iPFT_Brush10.png */,
-				83A6098A1B59415D004AF14D /* iPFT_Brush10@2x.png */,
-				83A6098B1B59415D004AF14D /* iPFT_Brush15.png */,
-				83A6098C1B59415D004AF14D /* iPFT_Brush15@2x.png */,
-				83A6098D1B59415D004AF14D /* iPFT_Brush20.png */,
-				83A6098E1B59415D004AF14D /* iPFT_Brush20@2x.png */,
-				83D8842F1B63964E00D611BB /* iPFT_TouchEvent.png */,
-				83D884301B63964E00D611BB /* iPFT_TouchEvent@2x.png */,
-				83D8842B1B63963E00D611BB /* iPFT_Annotation.png */,
-				83D8842C1B63963E00D611BB /* iPFT_Annotation@2x.png */,
-				83EE958B1B2DDEE3000CB5C2 /* iPFT_Failed.png */,
-				83EE958C1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png */,
-				83EE958D1B2DDEE3000CB5C2 /* iPFT_Success.png */,
-				83EE958E1B2DDEE3000CB5C2 /* iPFT_Success@2x.png */,
-				83EE958F1B2DDEE3000CB5C2 /* iPFT_Sending.png */,
-				83EE95981B2DDEE3000CB5C2 /* iPFT_Sending@2x.png */,
-				832D39D81B1CA69C000A098D /* iPFT_Contact.png */,
-				832D39D91B1CA69C000A098D /* iPFT_Contact@2x.png */,
-				832D39DA1B1CA69C000A098D /* iPFT_StartFeedback.png */,
-				832D39DB1B1CA69C000A098D /* iPFT_StartFeedback@2x.png */,
-				832D39DC1B1CA69C000A098D /* iPFT_Shake.png */,
-				832D39DD1B1CA69C000A098D /* iPFT_Shake@2x.png */,
-				832D39DE1B1CA69C000A098D /* iPFT_WhiteBG.png */,
-				837EC94E1B247E8700024B1D /* iPFT_Option.png */,
-				837EC94F1B247E8700024B1D /* iPFT_Option@2x.png */,
 			);
 			name = images;
 			path = ../../Classes/images;
@@ -531,47 +450,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				832D39CE1B1CA622000A098D /* iPFTModuleNativeMail.plist in Resources */,
-				832D39E61B1CA69C000A098D /* iPFT_Shake@2x.png in Resources */,
-				83A609931B59415D004AF14D /* iPFT_Brush20.png in Resources */,
-				832D39E51B1CA69C000A098D /* iPFT_Shake.png in Resources */,
 				832D39EF1B1CB310000A098D /* iPhoneFeedbackTool.bundle in Resources */,
-				83A609971B594165004AF14D /* iPFT_Eraser.png in Resources */,
 				83695E9E1B551BF900423DA9 /* Localizable.strings in Resources */,
-				83A609901B59415D004AF14D /* iPFT_Brush10@2x.png in Resources */,
-				83A609921B59415D004AF14D /* iPFT_Brush15@2x.png in Resources */,
-				837EC9501B247E8700024B1D /* iPFT_Option.png in Resources */,
-				83D8842D1B63963E00D611BB /* iPFT_Annotation.png in Resources */,
-				832D39E41B1CA69C000A098D /* iPFT_StartFeedback@2x.png in Resources */,
-				832D39E11B1CA69C000A098D /* iPFT_Contact.png in Resources */,
 				832D3A121B21E8E6000A098D /* iPFTSubmitViewController.xib in Resources */,
-				83D884321B63964E00D611BB /* iPFT_TouchEvent@2x.png in Resources */,
-				83A609941B59415D004AF14D /* iPFT_Brush20@2x.png in Resources */,
 				835972C71B47E69500C44A0A /* iPFTAnnotationViewController.xib in Resources */,
-				83A6098F1B59415D004AF14D /* iPFT_Brush10.png in Resources */,
 				831938061B19D7C200EA3D96 /* Main.storyboard in Resources */,
-				83D8842E1B63963E00D611BB /* iPFT_Annotation@2x.png in Resources */,
-				83A609911B59415D004AF14D /* iPFT_Brush15.png in Resources */,
-				83EE95991B2DDEE3000CB5C2 /* iPFT_Failed.png in Resources */,
-				832D39E21B1CA69C000A098D /* iPFT_Contact@2x.png in Resources */,
 				832D3A171B21EC02000A098D /* iPFTMessageViewController.xib in Resources */,
 				83BB52FA1B28D0D60023D67D /* iPFTHelpViewController.xib in Resources */,
 				832D39CC1B1CA622000A098D /* iPFTMainViewController.xib in Resources */,
-				832D39E31B1CA69C000A098D /* iPFT_StartFeedback.png in Resources */,
 				83D884381B63DD6D00D611BB /* iPFTModuleRedmineTicket.plist in Resources */,
 				832D39CA1B1CA622000A098D /* iPFTInfoViewController.xib in Resources */,
-				83D884311B63964E00D611BB /* iPFT_TouchEvent.png in Resources */,
 				8319380B1B19D7C300EA3D96 /* LaunchScreen.xib in Resources */,
-				83EE959C1B2DDEE3000CB5C2 /* iPFT_Success@2x.png in Resources */,
 				836F74421B5844CF00AD611D /* iPFTPaintViewController.xib in Resources */,
 				832D3A0D1B21E774000A098D /* iPFTOptionsViewController.xib in Resources */,
-				832D39E71B1CA69C000A098D /* iPFT_WhiteBG.png in Resources */,
 				83EE958A1B2D8009000CB5C2 /* iPFTLogViewController.xib in Resources */,
-				83EE959B1B2DDEE3000CB5C2 /* iPFT_Success.png in Resources */,
-				837EC9511B247E8700024B1D /* iPFT_Option@2x.png in Resources */,
-				83EE95A61B2DDEE3000CB5C2 /* iPFT_Sending@2x.png in Resources */,
-				83EE959D1B2DDEE3000CB5C2 /* iPFT_Sending.png in Resources */,
-				83EE959A1B2DDEE3000CB5C2 /* iPFT_Failed@2x.png in Resources */,
-				83A609981B594165004AF14D /* iPFT_Eraser@2x.png in Resources */,
 				831938081B19D7C300EA3D96 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

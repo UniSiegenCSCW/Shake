@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "43DFA43D662C3F8184CF21B8300940B173A5702C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "43DFA43D662C3F8184CF21B8300940B173A5702C" : 0,
+    "84BD90B0875996879B2B879A599355F00CF4412E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25F73AAB-E064-4763-ACA3-AC86FDDFA59B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "43DFA43D662C3F8184CF21B8300940B173A5702C" : "Shake\/",
+    "84BD90B0875996879B2B879A599355F00CF4412E" : "iPhoneFeedbackTool"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iPhoneFeedbackToolExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iPhoneFeedbackToolExample\/iPhoneFeedbackToolExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:UniSiegenCSCW\/Shake.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43DFA43D662C3F8184CF21B8300940B173A5702C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:UniSiegenCSCW\/iPhoneFeedbackTool.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84BD90B0875996879B2B879A599355F00CF4412E"
+    }
+  ]
+}

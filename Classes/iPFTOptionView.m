@@ -94,7 +94,7 @@
     _buttonSwitch.clipsToBounds = YES;
     
     // Add button image
-    [_buttonSwitch setImage:[UIImage imageNamed:@"iPFT_Option"] forState:UIControlStateNormal];
+    [_buttonSwitch setImage:[UIImage imageNamed:@"iPhoneFeedbackTool.bundle/iPFT_Option"] forState:UIControlStateNormal];
     
     // Add the button to the view
     [self addSubview:_buttonSwitch];

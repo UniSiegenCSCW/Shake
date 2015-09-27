@@ -48,7 +48,7 @@
         
         // Build the view
         _imageAnnotation = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 25, 25)];
-        _imageAnnotation.image = [UIImage imageNamed:@"iPFT_Annotation"];
+        _imageAnnotation.image = [UIImage imageNamed:@"iPhoneFeedbackTool.bundle/iPFT_Annotation"];
         CGRect frame = CGRectMake(position.x - ( _imageAnnotation.frame.size.width / 2 ) - 5,
                                   position.y - ( _imageAnnotation.frame.size.height / 2 ) - 5,
                                   _imageAnnotation.frame.size.width + 10,
